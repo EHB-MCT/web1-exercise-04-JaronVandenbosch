@@ -1,1 +1,91 @@
-/* nothing here */
+/* nothing here 
+
+    font-family: 'Karla', sans-serif;
+    font-family: 'Spectral', serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@600&display=swap');
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #0f1a26;
+    background-image: url(images/anywhere-workers.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 50%;
+    padding: 3rem 2em 0 2em;
+    margin: 0;
+
+}
+
+div {
+
+    width: 50%;
+
+}
+
+h1 {
+
+    color: #ffffff;
+    font-family: 'Spectral', serif;
+    font-size: 10em;
+    line-height: 1.2em;
+    margin: 0 0 2rem 0;
+
+}
+
+p,
+a {
+
+    font-family: 'Karla', sans-serif;
+
+}
+
+p {
+
+    color: #a4dfff;
+    font-size: 1.5em;
+
+}
+
+div p:nth-of-type(1) {
+
+    margin: 0;
+
+}
+
+div p:nth-of-type(2) {
+
+    font-variant: small-caps;
+    color: #ff233d;
+    letter-spacing: 2px;
+    margin: 3rem 0 4rem 0;
+
+}
+
+a {
+
+    color: #ffffff;
+    background-color: #ff233d;
+    text-decoration: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+    transition: 0.15s ease-in-out;
+
+}
+
+a:hover {
+
+    background-color: #e4001b;
+
+}
